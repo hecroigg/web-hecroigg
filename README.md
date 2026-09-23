@@ -30,11 +30,11 @@ The production build is generated in `dist/`.
 
 ## Cloudflare Workers & Pages
 
-Import the GitHub repository manually and use:
+The repository includes `wrangler.jsonc` for deployment as a Cloudflare Worker with Static Assets. Import the GitHub repository manually and use:
 
 - Framework preset: **Vite**
 - Build command: **`npm run build`**
-- Build output directory: **`dist`**
+- Deploy command: **`npx wrangler deploy`**
 - Root directory: leave blank
 - Node.js version: **20 or newer**
 
